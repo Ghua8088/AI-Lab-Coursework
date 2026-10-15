@@ -1,69 +1,64 @@
-#Alpha-Beta Pruning for tic-tac-
-infinity=float('inf')
+#minimax
+infinity=float("inf")
 def print_board(board):
     for row in board:
         print(" | ".join(row))
         print("---------")
     print()
-def check_winner(board):
-    # Check rows and columns
+def checkwin(board):
     for i in range(3):
         if board[i][0] == board[i][1] == board[i][2] != ' ':
             return board[i][0]
-
         if board[0][i] == board[1][i] == board[2][i] != ' ':
             return board[0][i]
-
-    # Check diagonals
     if board[0][0] == board[1][1] == board[2][2] != ' ':
         return board[0][0]
-
     if board[0][2] == board[1][1] == board[2][0] != ' ':
         return board[0][2]
-
     return None
-
-def check_draw(board):
-    for i in range(3):
-        for j in range(3):
-            if board[i][j] == " ":
+def checkdraw(board):
+    for i in board:
+        for j in i:
+            if j==" ":
                 return False
     return True
-    
-def minimax(board,depth,is_maximizing):
-    alpha= -infinity
-    beta=  infinity
-    winner = check_winner(board)
-    if winner is not None:
-        if winner == 'X':
-            return 10 - depth
-        else:
-            return depth - 10
-    if check_draw(board):
+def minimax(board,ismaximizing,alpha=-infinity,beta=infinity):
+    result=checkwin(board)
+    if result=="X":
+        return 10
+    elif result=="O":
+        return -10
+    if checkdraw(board):
         return 0
-    if is_maximizing:
-        for i in range(3):
-            for j in range(3):
-                if board[i][j] == " ":
-                    board[i][j] = "X"
-                    alpha = max(alpha, minimax(board, depth + 1, False))
-                    board[i][j] = ' '
-                    if alpha >= beta:
+    pruned=False
+    if ismaximizing:
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j]== " ":
+                    board[i][j]="X"
+                    max_eval= max(alpha,minimax(board,False,alpha,beta))
+                    alpha=max(alpha,max_eval)
+                    board[i][j]=" "
+                    if alpha>=beta:
+                        pruned=True
                         break
-                    board[i][j] = " "
-        return alpha
+            if pruned:
+                break
+        return max_eval
     else:
-        for i in range(3):
-            for j in range(3):
-                if board[i][j] == " ":
-                    board[i][j] = "O"
-                    beta = min(beta, minimax(board, depth + 1, True))
-                    board[i][j] = ' '
-                    if beta <= alpha:
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j]==" ":
+                    board[i][j]="O"
+                    min_eval= min(beta,minimax(board,True,alpha,beta))
+                    beta=min(beta,min_eval)
+                    board[i][j]=" "
+                    if alpha>=beta:
+                        pruned=True
                         break
-                    board[i][j] = " "
-        return beta
-
+            if pruned:
+                break
+        return min_eval
 def findBestMove(board):
     best = -infinity
     bestMove = (-1, -1)
@@ -71,7 +66,7 @@ def findBestMove(board):
         for j in range(3):
             if board[i][j] == " ":
                 board[i][j] = "X"
-                moveVal = minimax(board, 0, False)
+                moveVal = minimax(board,False)
                 board[i][j] = " "
                 if moveVal > best:
                     best = moveVal
@@ -83,7 +78,6 @@ if __name__ == "__main__":
     print_board(board)
     print("\nAI (X) vs Human (O)\n")
     while True:
-        # Human's Move
         row = int(input("Enter row (0-2): "))
         col = int(input("Enter column (0-2): "))
         if board[row][col] != " ":
@@ -92,20 +86,22 @@ if __name__ == "__main__":
         board[row][col] = "O"
         print("\nAfter Human's Move:")
         print_board(board)
-        if check_winner(board):
+        if checkwin(board):
             print("\nHuman wins!")
             break
-        if check_draw(board):
+        if checkdraw(board):
             print("\nIt's a draw!")
             break
-        # AI's Move
         bestMove = findBestMove(board)
         board[bestMove[0]][bestMove[1]] = "X"
         print("\nAfter AI's Move:")
         print_board(board)
-        if check_winner(board):
+        if checkwin(board):
             print("\nAI wins!")
             break
-        if check_draw(board):
+        if checkdraw(board):
             print("\nIt's a draw!")
             break
+
+        
+    
