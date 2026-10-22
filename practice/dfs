@@ -1,0 +1,27 @@
+
+domain=['Age','Income','Student','Credit_Rating']
+start={'Age','Income','Student','Credit_Rating'}
+target={'Student','Credit_Rating'}
+ops=[set.add,set.discard]
+def dfs(domain,start,target):
+    stack=[start]
+    seen={frozenset(start)}
+    while stack:
+        curr=stack.pop()
+        if curr==target:
+            print("Stack when target was found:", stack)
+            return target
+        for member in domain:
+            for op in ops:
+                next_state=set(curr)
+                op(next_state,member)
+                state_key = frozenset(next_state)
+                if state_key not in seen:
+                    stack.append(next_state)
+                    seen.add(state_key)
+dfs(domain,start,target)
+                
+
+
+
+    

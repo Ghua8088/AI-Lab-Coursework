@@ -1,0 +1,4435 @@
+{
+  "nodes": [
+    {
+      "id": "repo:ai",
+      "name": "ai",
+      "type": "Repository",
+      "fqn": "ai",
+      "filePath": "d:\\ai",
+      "attributes": {
+        "path": "d:\\ai"
+      },
+      "provenance": {
+        "filePath": "d:\\ai",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "fs-walk",
+        "confidenceTier": "TRUSTED",
+        "confidenceScore": 1
+      }
+    },
+    {
+      "id": "file:.gitignore",
+      "name": ".gitignore",
+      "type": "File",
+      "fqn": ".gitignore",
+      "filePath": ".gitignore",
+      "attributes": {
+        "extension": "",
+        "lines": 1
+      },
+      "provenance": {
+        "filePath": ".gitignore",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "fs-walk",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.9
+      }
+    },
+    {
+      "id": "file:8_puzzle.py",
+      "name": "8_puzzle.py",
+      "type": "File",
+      "fqn": "8_puzzle.py",
+      "filePath": "8_puzzle.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 44
+      },
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 1,
+        "lineEnd": 44,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:8_puzzle.py:locate_zero",
+      "name": "locate_zero",
+      "type": "Function",
+      "fqn": "8_puzzle.py:locate_zero",
+      "filePath": "8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 5,
+        "lineEnd": 5,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:8_puzzle.py:next_start",
+      "name": "next_start",
+      "type": "Function",
+      "fqn": "8_puzzle.py:next_start",
+      "filePath": "8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 10,
+        "lineEnd": 10,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:8_puzzle.py:ID_DLS",
+      "name": "ID_DLS",
+      "type": "Function",
+      "fqn": "8_puzzle.py:ID_DLS",
+      "filePath": "8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:8_puzzle.py:run",
+      "name": "run",
+      "type": "Function",
+      "fqn": "8_puzzle.py:run",
+      "filePath": "8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:Agent.py",
+      "name": "Agent.py",
+      "type": "File",
+      "fqn": "Agent.py",
+      "filePath": "Agent.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 221
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 1,
+        "lineEnd": 221,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:GameEnvironment",
+      "name": "GameEnvironment",
+      "type": "Class",
+      "fqn": "Agent.py:GameEnvironment",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 5,
+        "lineEnd": 5,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:get_initial_state",
+      "name": "get_initial_state",
+      "type": "Function",
+      "fqn": "Agent.py:get_initial_state",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 162,
+        "lineEnd": 162,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:get_current_player",
+      "name": "get_current_player",
+      "type": "Function",
+      "fqn": "Agent.py:get_current_player",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 166,
+        "lineEnd": 166,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:get_legal_actions",
+      "name": "get_legal_actions",
+      "type": "Function",
+      "fqn": "Agent.py:get_legal_actions",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 172,
+        "lineEnd": 172,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:apply_action",
+      "name": "apply_action",
+      "type": "Function",
+      "fqn": "Agent.py:apply_action",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 178,
+        "lineEnd": 178,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:is_terminal",
+      "name": "is_terminal",
+      "type": "Function",
+      "fqn": "Agent.py:is_terminal",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 185,
+        "lineEnd": 185,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:Policy",
+      "name": "Policy",
+      "type": "Class",
+      "fqn": "Agent.py:Policy",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 36,
+        "lineEnd": 36,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:__call__",
+      "name": "__call__",
+      "type": "Function",
+      "fqn": "Agent.py:__call__",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 122,
+        "lineEnd": 122,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:Agent",
+      "name": "Agent",
+      "type": "Class",
+      "fqn": "Agent.py:Agent",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 42,
+        "lineEnd": 42,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:__init__",
+      "name": "__init__",
+      "type": "Function",
+      "fqn": "Agent.py:__init__",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 119,
+        "lineEnd": 119,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:select_action",
+      "name": "select_action",
+      "type": "Function",
+      "fqn": "Agent.py:select_action",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 47,
+        "lineEnd": 47,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:MiniMaxPolicy",
+      "name": "MiniMaxPolicy",
+      "type": "Class",
+      "fqn": "Agent.py:MiniMaxPolicy",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 49,
+        "lineEnd": 49,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:_search",
+      "name": "_search",
+      "type": "Function",
+      "fqn": "Agent.py:_search",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 68,
+        "lineEnd": 68,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:GreedyBestFirstSearchPolicy",
+      "name": "GreedyBestFirstSearchPolicy",
+      "type": "Class",
+      "fqn": "Agent.py:GreedyBestFirstSearchPolicy",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 98,
+        "lineEnd": 98,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:AStarSearchPolicy",
+      "name": "AStarSearchPolicy",
+      "type": "Class",
+      "fqn": "Agent.py:AStarSearchPolicy",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 118,
+        "lineEnd": 118,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:Agent.py:ttt_heuristic",
+      "name": "ttt_heuristic",
+      "type": "Function",
+      "fqn": "Agent.py:ttt_heuristic",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 138,
+        "lineEnd": 138,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:Agent.py:TicTacToe",
+      "name": "TicTacToe",
+      "type": "Class",
+      "fqn": "Agent.py:TicTacToe",
+      "filePath": "Agent.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 155,
+        "lineEnd": 155,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:astar.py",
+      "name": "astar.py",
+      "type": "File",
+      "fqn": "astar.py",
+      "filePath": "astar.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 58
+      },
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 1,
+        "lineEnd": 58,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:astar.py:astar",
+      "name": "astar",
+      "type": "Function",
+      "fqn": "astar.py:astar",
+      "filePath": "astar.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:astar.py:print_path",
+      "name": "print_path",
+      "type": "Function",
+      "fqn": "astar.py:print_path",
+      "filePath": "astar.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 51,
+        "lineEnd": 51,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:a_star_8_puzzle.py",
+      "name": "a_star_8_puzzle.py",
+      "type": "File",
+      "fqn": "a_star_8_puzzle.py",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 88
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 1,
+        "lineEnd": 88,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:a_star_8_puzzle.py:h",
+      "name": "h",
+      "type": "Function",
+      "fqn": "a_star_8_puzzle.py:h",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:a_star_8_puzzle.py:locate_zero",
+      "name": "locate_zero",
+      "type": "Function",
+      "fqn": "a_star_8_puzzle.py:locate_zero",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 29,
+        "lineEnd": 29,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:a_star_8_puzzle.py:get_next_state",
+      "name": "get_next_state",
+      "type": "Function",
+      "fqn": "a_star_8_puzzle.py:get_next_state",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 35,
+        "lineEnd": 35,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:a_star_8_puzzle.py:a_star",
+      "name": "a_star",
+      "type": "Function",
+      "fqn": "a_star_8_puzzle.py:a_star",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:a_star_8_puzzle.py:run",
+      "name": "run",
+      "type": "Function",
+      "fqn": "a_star_8_puzzle.py:run",
+      "filePath": "a_star_8_puzzle.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 80,
+        "lineEnd": 80,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:bfs.py",
+      "name": "bfs.py",
+      "type": "File",
+      "fqn": "bfs.py",
+      "filePath": "bfs.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 41
+      },
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 1,
+        "lineEnd": 41,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:bfs.py:bfs",
+      "name": "bfs",
+      "type": "Function",
+      "fqn": "bfs.py:bfs",
+      "filePath": "bfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:bfs.py:print_path",
+      "name": "print_path",
+      "type": "Function",
+      "fqn": "bfs.py:print_path",
+      "filePath": "bfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 34,
+        "lineEnd": 34,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:dfs.py",
+      "name": "dfs.py",
+      "type": "File",
+      "fqn": "dfs.py",
+      "filePath": "dfs.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 41
+      },
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 1,
+        "lineEnd": 41,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:dfs.py:bfs",
+      "name": "bfs",
+      "type": "Function",
+      "fqn": "dfs.py:bfs",
+      "filePath": "dfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:dfs.py:print_path",
+      "name": "print_path",
+      "type": "Function",
+      "fqn": "dfs.py:print_path",
+      "filePath": "dfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 34,
+        "lineEnd": 34,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-10.py",
+      "name": "ex-10.py",
+      "type": "File",
+      "fqn": "ex-10.py",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 49
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 1,
+        "lineEnd": 49,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-10.py:Variable",
+      "name": "Variable",
+      "type": "Class",
+      "fqn": "ex-10.py:Variable",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-10.py:__init__",
+      "name": "__init__",
+      "type": "Function",
+      "fqn": "ex-10.py:__init__",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-10.py:bind",
+      "name": "bind",
+      "type": "Function",
+      "fqn": "ex-10.py:bind",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 6,
+        "lineEnd": 6,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-10.py:__repr__",
+      "name": "__repr__",
+      "type": "Function",
+      "fqn": "ex-10.py:__repr__",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-10.py:Atom",
+      "name": "Atom",
+      "type": "Class",
+      "fqn": "ex-10.py:Atom",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 12,
+        "lineEnd": 12,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-10.py:Term",
+      "name": "Term",
+      "type": "Class",
+      "fqn": "ex-10.py:Term",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-10.py:Relation",
+      "name": "Relation",
+      "type": "Class",
+      "fqn": "ex-10.py:Relation",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 24,
+        "lineEnd": 24,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-10.py:__call__",
+      "name": "__call__",
+      "type": "Function",
+      "fqn": "ex-10.py:__call__",
+      "filePath": "ex-10.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 27,
+        "lineEnd": 27,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-11.py",
+      "name": "ex-11.py",
+      "type": "File",
+      "fqn": "ex-11.py",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 43
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 1,
+        "lineEnd": 43,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-11.py:Atom",
+      "name": "Atom",
+      "type": "Class",
+      "fqn": "ex-11.py:Atom",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:__init__",
+      "name": "__init__",
+      "type": "Function",
+      "fqn": "ex-11.py:__init__",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:__repr__",
+      "name": "__repr__",
+      "type": "Function",
+      "fqn": "ex-11.py:__repr__",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-11.py:Var",
+      "name": "Var",
+      "type": "Class",
+      "fqn": "ex-11.py:Var",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 6,
+        "lineEnd": 6,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-11.py:Term",
+      "name": "Term",
+      "type": "Class",
+      "fqn": "ex-11.py:Term",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-11.py:Relation",
+      "name": "Relation",
+      "type": "Class",
+      "fqn": "ex-11.py:Relation",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 18,
+        "lineEnd": 18,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:__call__",
+      "name": "__call__",
+      "type": "Function",
+      "fqn": "ex-11.py:__call__",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:And",
+      "name": "And",
+      "type": "Function",
+      "fqn": "ex-11.py:And",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:Or",
+      "name": "Or",
+      "type": "Function",
+      "fqn": "ex-11.py:Or",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:Implies",
+      "name": "Implies",
+      "type": "Function",
+      "fqn": "ex-11.py:Implies",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 27,
+        "lineEnd": 27,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:Not",
+      "name": "Not",
+      "type": "Function",
+      "fqn": "ex-11.py:Not",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 29,
+        "lineEnd": 29,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:ForAll",
+      "name": "ForAll",
+      "type": "Function",
+      "fqn": "ex-11.py:ForAll",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-11.py:Exist",
+      "name": "Exist",
+      "type": "Function",
+      "fqn": "ex-11.py:Exist",
+      "filePath": "ex-11.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 33,
+        "lineEnd": 33,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-12.py",
+      "name": "ex-12.py",
+      "type": "File",
+      "fqn": "ex-12.py",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 91
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 1,
+        "lineEnd": 91,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-12.py:Variable",
+      "name": "Variable",
+      "type": "Class",
+      "fqn": "ex-12.py:Variable",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-12.py:__init__",
+      "name": "__init__",
+      "type": "Function",
+      "fqn": "ex-12.py:__init__",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-12.py:__repr__",
+      "name": "__repr__",
+      "type": "Function",
+      "fqn": "ex-12.py:__repr__",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-12.py:Constant",
+      "name": "Constant",
+      "type": "Class",
+      "fqn": "ex-12.py:Constant",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:ex-12.py:Term",
+      "name": "Term",
+      "type": "Class",
+      "fqn": "ex-12.py:Term",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-12.py:unify_variable",
+      "name": "unify_variable",
+      "type": "Function",
+      "fqn": "ex-12.py:unify_variable",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-12.py:unify",
+      "name": "unify",
+      "type": "Function",
+      "fqn": "ex-12.py:unify",
+      "filePath": "ex-12.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-6.py",
+      "name": "ex-6.py",
+      "type": "File",
+      "fqn": "ex-6.py",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 74
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 1,
+        "lineEnd": 74,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:get_fitness",
+      "name": "get_fitness",
+      "type": "Function",
+      "fqn": "ex-6.py:get_fitness",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:init_candidates",
+      "name": "init_candidates",
+      "type": "Function",
+      "fqn": "ex-6.py:init_candidates",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:score_sort",
+      "name": "score_sort",
+      "type": "Function",
+      "fqn": "ex-6.py:score_sort",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:cross",
+      "name": "cross",
+      "type": "Function",
+      "fqn": "ex-6.py:cross",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 36,
+        "lineEnd": 36,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:mutate",
+      "name": "mutate",
+      "type": "Function",
+      "fqn": "ex-6.py:mutate",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-6.py:genetic_",
+      "name": "genetic_",
+      "type": "Function",
+      "fqn": "ex-6.py:genetic_",
+      "filePath": "ex-6.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 58,
+        "lineEnd": 58,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-7.py",
+      "name": "ex-7.py",
+      "type": "File",
+      "fqn": "ex-7.py",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 108
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 1,
+        "lineEnd": 108,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-7.py:print_board",
+      "name": "print_board",
+      "type": "Function",
+      "fqn": "ex-7.py:print_board",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-7.py:checkwin",
+      "name": "checkwin",
+      "type": "Function",
+      "fqn": "ex-7.py:checkwin",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-7.py:checkdraw",
+      "name": "checkdraw",
+      "type": "Function",
+      "fqn": "ex-7.py:checkdraw",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-7.py:minimax",
+      "name": "minimax",
+      "type": "Function",
+      "fqn": "ex-7.py:minimax",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-7.py:findBestMove",
+      "name": "findBestMove",
+      "type": "Function",
+      "fqn": "ex-7.py:findBestMove",
+      "filePath": "ex-7.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-8.py",
+      "name": "ex-8.py",
+      "type": "File",
+      "fqn": "ex-8.py",
+      "filePath": "ex-8.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 43
+      },
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 1,
+        "lineEnd": 43,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-8.py:satisfies_constraint",
+      "name": "satisfies_constraint",
+      "type": "Function",
+      "fqn": "ex-8.py:satisfies_constraint",
+      "filePath": "ex-8.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-8.py:backtracking_search",
+      "name": "backtracking_search",
+      "type": "Function",
+      "fqn": "ex-8.py:backtracking_search",
+      "filePath": "ex-8.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 9,
+        "lineEnd": 9,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:ex-9.py",
+      "name": "ex-9.py",
+      "type": "File",
+      "fqn": "ex-9.py",
+      "filePath": "ex-9.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 52
+      },
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 1,
+        "lineEnd": 52,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-9.py:satisfies_constraint",
+      "name": "satisfies_constraint",
+      "type": "Function",
+      "fqn": "ex-9.py:satisfies_constraint",
+      "filePath": "ex-9.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:ex-9.py:backtrack",
+      "name": "backtrack",
+      "type": "Function",
+      "fqn": "ex-9.py:backtrack",
+      "filePath": "ex-9.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:greedy_subset.py",
+      "name": "greedy_subset.py",
+      "type": "File",
+      "fqn": "greedy_subset.py",
+      "filePath": "greedy_subset.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 59
+      },
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 1,
+        "lineEnd": 59,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:greedy_subset.py:euclidean_distance",
+      "name": "euclidean_distance",
+      "type": "Function",
+      "fqn": "greedy_subset.py:euclidean_distance",
+      "filePath": "greedy_subset.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:greedy_subset.py:greedy_best_first_search",
+      "name": "greedy_best_first_search",
+      "type": "Function",
+      "fqn": "greedy_subset.py:greedy_best_first_search",
+      "filePath": "greedy_subset.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 30,
+        "lineEnd": 30,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:minimax.py",
+      "name": "minimax.py",
+      "type": "File",
+      "fqn": "minimax.py",
+      "filePath": "minimax.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 73
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 1,
+        "lineEnd": 73,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax.py:eval",
+      "name": "eval",
+      "type": "Function",
+      "fqn": "minimax.py:eval",
+      "filePath": "minimax.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 2,
+        "lineEnd": 2,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax.py:getBlank",
+      "name": "getBlank",
+      "type": "Function",
+      "fqn": "minimax.py:getBlank",
+      "filePath": "minimax.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 12,
+        "lineEnd": 12,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax.py:minimax",
+      "name": "minimax",
+      "type": "Function",
+      "fqn": "minimax.py:minimax",
+      "filePath": "minimax.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 14,
+        "lineEnd": 14,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax.py:find_best_move",
+      "name": "find_best_move",
+      "type": "Function",
+      "fqn": "minimax.py:find_best_move",
+      "filePath": "minimax.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax.py:play",
+      "name": "play",
+      "type": "Function",
+      "fqn": "minimax.py:play",
+      "filePath": "minimax.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:minimax_tk.py",
+      "name": "minimax_tk.py",
+      "type": "File",
+      "fqn": "minimax_tk.py",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 167
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 1,
+        "lineEnd": 167,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:eval_board",
+      "name": "eval_board",
+      "type": "Function",
+      "fqn": "minimax_tk.py:eval_board",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 7,
+        "lineEnd": 7,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:get_blank",
+      "name": "get_blank",
+      "type": "Function",
+      "fqn": "minimax_tk.py:get_blank",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 18,
+        "lineEnd": 18,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:minimax",
+      "name": "minimax",
+      "type": "Function",
+      "fqn": "minimax_tk.py:minimax",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:find_best_move",
+      "name": "find_best_move",
+      "type": "Function",
+      "fqn": "minimax_tk.py:find_best_move",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 49,
+        "lineEnd": 49,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "class:minimax_tk.py:TicTacToeGUI",
+      "name": "TicTacToeGUI",
+      "type": "Class",
+      "fqn": "minimax_tk.py:TicTacToeGUI",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python"
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 65,
+        "lineEnd": 65,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:__init__",
+      "name": "__init__",
+      "type": "Function",
+      "fqn": "minimax_tk.py:__init__",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 66,
+        "lineEnd": 66,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:on_click",
+      "name": "on_click",
+      "type": "Function",
+      "fqn": "minimax_tk.py:on_click",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 114,
+        "lineEnd": 114,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:update_button",
+      "name": "update_button",
+      "type": "Function",
+      "fqn": "minimax_tk.py:update_button",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 138,
+        "lineEnd": 138,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:check_game_over",
+      "name": "check_game_over",
+      "type": "Function",
+      "fqn": "minimax_tk.py:check_game_over",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 141,
+        "lineEnd": 141,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:minimax_tk.py:reset_game",
+      "name": "reset_game",
+      "type": "Function",
+      "fqn": "minimax_tk.py:reset_game",
+      "filePath": "minimax_tk.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 157,
+        "lineEnd": 157,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/abp.py",
+      "name": "abp.py",
+      "type": "File",
+      "fqn": "practice/abp.py",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 107
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 1,
+        "lineEnd": 107,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/abp.py:print_board",
+      "name": "print_board",
+      "type": "Function",
+      "fqn": "practice/abp.py:print_board",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/abp.py:checkwin",
+      "name": "checkwin",
+      "type": "Function",
+      "fqn": "practice/abp.py:checkwin",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/abp.py:checkdraw",
+      "name": "checkdraw",
+      "type": "Function",
+      "fqn": "practice/abp.py:checkdraw",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/abp.py:minimax",
+      "name": "minimax",
+      "type": "Function",
+      "fqn": "practice/abp.py:minimax",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/abp.py:findBestMove",
+      "name": "findBestMove",
+      "type": "Function",
+      "fqn": "practice/abp.py:findBestMove",
+      "filePath": "practice/abp.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/astar.py",
+      "name": "astar.py",
+      "type": "File",
+      "fqn": "practice/astar.py",
+      "filePath": "practice/astar.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 33
+      },
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 1,
+        "lineEnd": 33,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/astar.py:astar",
+      "name": "astar",
+      "type": "Function",
+      "fqn": "practice/astar.py:astar",
+      "filePath": "practice/astar.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/bfs.py",
+      "name": "bfs.py",
+      "type": "File",
+      "fqn": "practice/bfs.py",
+      "filePath": "practice/bfs.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 23
+      },
+      "provenance": {
+        "filePath": "practice/bfs.py",
+        "lineStart": 1,
+        "lineEnd": 23,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/bfs.py:bfs",
+      "name": "bfs",
+      "type": "Function",
+      "fqn": "practice/bfs.py:bfs",
+      "filePath": "practice/bfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/bfs.py",
+        "lineStart": 10,
+        "lineEnd": 10,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/CA.py",
+      "name": "CA.py",
+      "type": "File",
+      "fqn": "practice/CA.py",
+      "filePath": "practice/CA.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 61
+      },
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 1,
+        "lineEnd": 61,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/CA.py:word_map",
+      "name": "word_map",
+      "type": "Function",
+      "fqn": "practice/CA.py:word_map",
+      "filePath": "practice/CA.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 2,
+        "lineEnd": 2,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/CA.py:satisfies_constraint",
+      "name": "satisfies_constraint",
+      "type": "Function",
+      "fqn": "practice/CA.py:satisfies_constraint",
+      "filePath": "practice/CA.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/CA.py:backtrack",
+      "name": "backtrack",
+      "type": "Function",
+      "fqn": "practice/CA.py:backtrack",
+      "filePath": "practice/CA.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/CSP.py",
+      "name": "CSP.py",
+      "type": "File",
+      "fqn": "practice/CSP.py",
+      "filePath": "practice/CSP.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 37
+      },
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 1,
+        "lineEnd": 37,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/CSP.py:satisfies_constraint",
+      "name": "satisfies_constraint",
+      "type": "Function",
+      "fqn": "practice/CSP.py:satisfies_constraint",
+      "filePath": "practice/CSP.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/CSP.py:backtrack",
+      "name": "backtrack",
+      "type": "Function",
+      "fqn": "practice/CSP.py:backtrack",
+      "filePath": "practice/CSP.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/dfs.py",
+      "name": "dfs.py",
+      "type": "File",
+      "fqn": "practice/dfs.py",
+      "filePath": "practice/dfs.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 22
+      },
+      "provenance": {
+        "filePath": "practice/dfs.py",
+        "lineStart": 1,
+        "lineEnd": 22,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/dfs.py:dfs",
+      "name": "dfs",
+      "type": "Function",
+      "fqn": "practice/dfs.py:dfs",
+      "filePath": "practice/dfs.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/dfs.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "file:practice/greedy.py",
+      "name": "greedy.py",
+      "type": "File",
+      "fqn": "practice/greedy.py",
+      "filePath": "practice/greedy.py",
+      "attributes": {
+        "extension": ".py",
+        "lines": 33
+      },
+      "provenance": {
+        "filePath": "practice/greedy.py",
+        "lineStart": 1,
+        "lineEnd": 33,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "fn:practice/greedy.py:dfs",
+      "name": "dfs",
+      "type": "Function",
+      "fqn": "practice/greedy.py:dfs",
+      "filePath": "practice/greedy.py",
+      "attributes": {
+        "language": "python",
+        "isAsync": false
+      },
+      "provenance": {
+        "filePath": "practice/greedy.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "concept:VersionedContextManagement",
+      "name": "VersionedContextManagement",
+      "type": "BusinessConcept",
+      "fqn": "concept:VersionedContextManagement",
+      "filePath": "architectural-domain",
+      "attributes": {
+        "description": "Managing version-controlled property graph commits linked to Git SHAs"
+      },
+      "provenance": {
+        "filePath": "architectural-domain",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "semantic-domain-synthesizer",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.9
+      }
+    },
+    {
+      "id": "concept:StaticCodeIntelligence",
+      "name": "StaticCodeIntelligence",
+      "type": "BusinessConcept",
+      "fqn": "concept:StaticCodeIntelligence",
+      "filePath": "architectural-domain",
+      "attributes": {
+        "description": "AST static extraction across polyglot repository codebases"
+      },
+      "provenance": {
+        "filePath": "architectural-domain",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "semantic-domain-synthesizer",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.9
+      }
+    },
+    {
+      "id": "concept:AgentContextGovernance",
+      "name": "AgentContextGovernance",
+      "type": "BusinessConcept",
+      "fqn": "concept:AgentContextGovernance",
+      "filePath": "architectural-domain",
+      "attributes": {
+        "description": "Governed context delivery to AI agents via Model Context Protocol"
+      },
+      "provenance": {
+        "filePath": "architectural-domain",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "semantic-domain-synthesizer",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:repo:ai->file:.gitignore",
+      "sourceId": "repo:ai",
+      "targetId": "file:.gitignore",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": ".gitignore",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "fs-walk",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.9
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:8_puzzle.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:8_puzzle.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 1,
+        "lineEnd": 44,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:8_puzzle.py->fn:8_puzzle.py:locate_zero",
+      "sourceId": "file:8_puzzle.py",
+      "targetId": "fn:8_puzzle.py:locate_zero",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 5,
+        "lineEnd": 5,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:8_puzzle.py->fn:8_puzzle.py:next_start",
+      "sourceId": "file:8_puzzle.py",
+      "targetId": "fn:8_puzzle.py:next_start",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 10,
+        "lineEnd": 10,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:8_puzzle.py->fn:8_puzzle.py:ID_DLS",
+      "sourceId": "file:8_puzzle.py",
+      "targetId": "fn:8_puzzle.py:ID_DLS",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:8_puzzle.py->fn:8_puzzle.py:run",
+      "sourceId": "file:8_puzzle.py",
+      "targetId": "fn:8_puzzle.py:run",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "8_puzzle.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:Agent.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:Agent.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 1,
+        "lineEnd": 221,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:GameEnvironment",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:GameEnvironment",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 5,
+        "lineEnd": 5,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:get_initial_state",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:get_initial_state",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 162,
+        "lineEnd": 162,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:get_current_player",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:get_current_player",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 166,
+        "lineEnd": 166,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:get_legal_actions",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:get_legal_actions",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 172,
+        "lineEnd": 172,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:apply_action",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:apply_action",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 178,
+        "lineEnd": 178,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:is_terminal",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:is_terminal",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 185,
+        "lineEnd": 185,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:Policy",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:Policy",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 36,
+        "lineEnd": 36,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:__call__",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:__call__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 122,
+        "lineEnd": 122,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:Agent",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:Agent",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 42,
+        "lineEnd": 42,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:__init__",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:__init__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 119,
+        "lineEnd": 119,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:select_action",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:select_action",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 47,
+        "lineEnd": 47,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:MiniMaxPolicy",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:MiniMaxPolicy",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 49,
+        "lineEnd": 49,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:_search",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:_search",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 68,
+        "lineEnd": 68,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:GreedyBestFirstSearchPolicy",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:GreedyBestFirstSearchPolicy",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 98,
+        "lineEnd": 98,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:AStarSearchPolicy",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:AStarSearchPolicy",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 118,
+        "lineEnd": 118,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->fn:Agent.py:ttt_heuristic",
+      "sourceId": "file:Agent.py",
+      "targetId": "fn:Agent.py:ttt_heuristic",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 138,
+        "lineEnd": 138,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:Agent.py->class:Agent.py:TicTacToe",
+      "sourceId": "file:Agent.py",
+      "targetId": "class:Agent.py:TicTacToe",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 155,
+        "lineEnd": 155,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:astar.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:astar.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 1,
+        "lineEnd": 58,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:astar.py->fn:astar.py:astar",
+      "sourceId": "file:astar.py",
+      "targetId": "fn:astar.py:astar",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:astar.py->fn:astar.py:print_path",
+      "sourceId": "file:astar.py",
+      "targetId": "fn:astar.py:print_path",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 51,
+        "lineEnd": 51,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:a_star_8_puzzle.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:a_star_8_puzzle.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 1,
+        "lineEnd": 88,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:a_star_8_puzzle.py->fn:a_star_8_puzzle.py:h",
+      "sourceId": "file:a_star_8_puzzle.py",
+      "targetId": "fn:a_star_8_puzzle.py:h",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:a_star_8_puzzle.py->fn:a_star_8_puzzle.py:locate_zero",
+      "sourceId": "file:a_star_8_puzzle.py",
+      "targetId": "fn:a_star_8_puzzle.py:locate_zero",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 29,
+        "lineEnd": 29,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:a_star_8_puzzle.py->fn:a_star_8_puzzle.py:get_next_state",
+      "sourceId": "file:a_star_8_puzzle.py",
+      "targetId": "fn:a_star_8_puzzle.py:get_next_state",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 35,
+        "lineEnd": 35,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:a_star_8_puzzle.py->fn:a_star_8_puzzle.py:a_star",
+      "sourceId": "file:a_star_8_puzzle.py",
+      "targetId": "fn:a_star_8_puzzle.py:a_star",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:a_star_8_puzzle.py->fn:a_star_8_puzzle.py:run",
+      "sourceId": "file:a_star_8_puzzle.py",
+      "targetId": "fn:a_star_8_puzzle.py:run",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "a_star_8_puzzle.py",
+        "lineStart": 80,
+        "lineEnd": 80,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:bfs.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:bfs.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 1,
+        "lineEnd": 41,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:bfs.py->fn:bfs.py:bfs",
+      "sourceId": "file:bfs.py",
+      "targetId": "fn:bfs.py:bfs",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:bfs.py->fn:bfs.py:print_path",
+      "sourceId": "file:bfs.py",
+      "targetId": "fn:bfs.py:print_path",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "bfs.py",
+        "lineStart": 34,
+        "lineEnd": 34,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:dfs.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:dfs.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 1,
+        "lineEnd": 41,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:dfs.py->fn:dfs.py:bfs",
+      "sourceId": "file:dfs.py",
+      "targetId": "fn:dfs.py:bfs",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:dfs.py->fn:dfs.py:print_path",
+      "sourceId": "file:dfs.py",
+      "targetId": "fn:dfs.py:print_path",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "dfs.py",
+        "lineStart": 34,
+        "lineEnd": 34,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-10.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-10.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 1,
+        "lineEnd": 49,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->class:ex-10.py:Variable",
+      "sourceId": "file:ex-10.py",
+      "targetId": "class:ex-10.py:Variable",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->fn:ex-10.py:__init__",
+      "sourceId": "file:ex-10.py",
+      "targetId": "fn:ex-10.py:__init__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->fn:ex-10.py:bind",
+      "sourceId": "file:ex-10.py",
+      "targetId": "fn:ex-10.py:bind",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 6,
+        "lineEnd": 6,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->fn:ex-10.py:__repr__",
+      "sourceId": "file:ex-10.py",
+      "targetId": "fn:ex-10.py:__repr__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->class:ex-10.py:Atom",
+      "sourceId": "file:ex-10.py",
+      "targetId": "class:ex-10.py:Atom",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 12,
+        "lineEnd": 12,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->class:ex-10.py:Term",
+      "sourceId": "file:ex-10.py",
+      "targetId": "class:ex-10.py:Term",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->class:ex-10.py:Relation",
+      "sourceId": "file:ex-10.py",
+      "targetId": "class:ex-10.py:Relation",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 24,
+        "lineEnd": 24,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-10.py->fn:ex-10.py:__call__",
+      "sourceId": "file:ex-10.py",
+      "targetId": "fn:ex-10.py:__call__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-10.py",
+        "lineStart": 27,
+        "lineEnd": 27,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-11.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-11.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 1,
+        "lineEnd": 43,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->class:ex-11.py:Atom",
+      "sourceId": "file:ex-11.py",
+      "targetId": "class:ex-11.py:Atom",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:__init__",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:__init__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:__repr__",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:__repr__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->class:ex-11.py:Var",
+      "sourceId": "file:ex-11.py",
+      "targetId": "class:ex-11.py:Var",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 6,
+        "lineEnd": 6,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->class:ex-11.py:Term",
+      "sourceId": "file:ex-11.py",
+      "targetId": "class:ex-11.py:Term",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->class:ex-11.py:Relation",
+      "sourceId": "file:ex-11.py",
+      "targetId": "class:ex-11.py:Relation",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 18,
+        "lineEnd": 18,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:__call__",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:__call__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:And",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:And",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:Or",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:Or",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:Implies",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:Implies",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 27,
+        "lineEnd": 27,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:Not",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:Not",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 29,
+        "lineEnd": 29,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:ForAll",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:ForAll",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-11.py->fn:ex-11.py:Exist",
+      "sourceId": "file:ex-11.py",
+      "targetId": "fn:ex-11.py:Exist",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-11.py",
+        "lineStart": 33,
+        "lineEnd": 33,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-12.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-12.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 1,
+        "lineEnd": 91,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->class:ex-12.py:Variable",
+      "sourceId": "file:ex-12.py",
+      "targetId": "class:ex-12.py:Variable",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->fn:ex-12.py:__init__",
+      "sourceId": "file:ex-12.py",
+      "targetId": "fn:ex-12.py:__init__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 16,
+        "lineEnd": 16,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->fn:ex-12.py:__repr__",
+      "sourceId": "file:ex-12.py",
+      "targetId": "fn:ex-12.py:__repr__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->class:ex-12.py:Constant",
+      "sourceId": "file:ex-12.py",
+      "targetId": "class:ex-12.py:Constant",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->class:ex-12.py:Term",
+      "sourceId": "file:ex-12.py",
+      "targetId": "class:ex-12.py:Term",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 15,
+        "lineEnd": 15,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->fn:ex-12.py:unify_variable",
+      "sourceId": "file:ex-12.py",
+      "targetId": "fn:ex-12.py:unify_variable",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-12.py->fn:ex-12.py:unify",
+      "sourceId": "file:ex-12.py",
+      "targetId": "fn:ex-12.py:unify",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-12.py",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-6.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-6.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 1,
+        "lineEnd": 74,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:get_fitness",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:get_fitness",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:init_candidates",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:init_candidates",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:score_sort",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:score_sort",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:cross",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:cross",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 36,
+        "lineEnd": 36,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:mutate",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:mutate",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-6.py->fn:ex-6.py:genetic_",
+      "sourceId": "file:ex-6.py",
+      "targetId": "fn:ex-6.py:genetic_",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-6.py",
+        "lineStart": 58,
+        "lineEnd": 58,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-7.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-7.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 1,
+        "lineEnd": 108,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-7.py->fn:ex-7.py:print_board",
+      "sourceId": "file:ex-7.py",
+      "targetId": "fn:ex-7.py:print_board",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-7.py->fn:ex-7.py:checkwin",
+      "sourceId": "file:ex-7.py",
+      "targetId": "fn:ex-7.py:checkwin",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-7.py->fn:ex-7.py:checkdraw",
+      "sourceId": "file:ex-7.py",
+      "targetId": "fn:ex-7.py:checkdraw",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-7.py->fn:ex-7.py:minimax",
+      "sourceId": "file:ex-7.py",
+      "targetId": "fn:ex-7.py:minimax",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-7.py->fn:ex-7.py:findBestMove",
+      "sourceId": "file:ex-7.py",
+      "targetId": "fn:ex-7.py:findBestMove",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-7.py",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-8.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-8.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 1,
+        "lineEnd": 43,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-8.py->fn:ex-8.py:satisfies_constraint",
+      "sourceId": "file:ex-8.py",
+      "targetId": "fn:ex-8.py:satisfies_constraint",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-8.py->fn:ex-8.py:backtracking_search",
+      "sourceId": "file:ex-8.py",
+      "targetId": "fn:ex-8.py:backtracking_search",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-8.py",
+        "lineStart": 9,
+        "lineEnd": 9,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:ex-9.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:ex-9.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 1,
+        "lineEnd": 52,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-9.py->fn:ex-9.py:satisfies_constraint",
+      "sourceId": "file:ex-9.py",
+      "targetId": "fn:ex-9.py:satisfies_constraint",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:ex-9.py->fn:ex-9.py:backtrack",
+      "sourceId": "file:ex-9.py",
+      "targetId": "fn:ex-9.py:backtrack",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "ex-9.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:greedy_subset.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:greedy_subset.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 1,
+        "lineEnd": 59,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:greedy_subset.py->fn:greedy_subset.py:euclidean_distance",
+      "sourceId": "file:greedy_subset.py",
+      "targetId": "fn:greedy_subset.py:euclidean_distance",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:greedy_subset.py->fn:greedy_subset.py:greedy_best_first_search",
+      "sourceId": "file:greedy_subset.py",
+      "targetId": "fn:greedy_subset.py:greedy_best_first_search",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "greedy_subset.py",
+        "lineStart": 30,
+        "lineEnd": 30,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:minimax.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:minimax.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 1,
+        "lineEnd": 73,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax.py->fn:minimax.py:eval",
+      "sourceId": "file:minimax.py",
+      "targetId": "fn:minimax.py:eval",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 2,
+        "lineEnd": 2,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax.py->fn:minimax.py:getBlank",
+      "sourceId": "file:minimax.py",
+      "targetId": "fn:minimax.py:getBlank",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 12,
+        "lineEnd": 12,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax.py->fn:minimax.py:minimax",
+      "sourceId": "file:minimax.py",
+      "targetId": "fn:minimax.py:minimax",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 14,
+        "lineEnd": 14,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax.py->fn:minimax.py:find_best_move",
+      "sourceId": "file:minimax.py",
+      "targetId": "fn:minimax.py:find_best_move",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax.py->fn:minimax.py:play",
+      "sourceId": "file:minimax.py",
+      "targetId": "fn:minimax.py:play",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax.py",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:minimax_tk.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:minimax_tk.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 1,
+        "lineEnd": 167,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:eval_board",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:eval_board",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 7,
+        "lineEnd": 7,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:get_blank",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:get_blank",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 18,
+        "lineEnd": 18,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:minimax",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:minimax",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:find_best_move",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:find_best_move",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 49,
+        "lineEnd": 49,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->class:minimax_tk.py:TicTacToeGUI",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "class:minimax_tk.py:TicTacToeGUI",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 65,
+        "lineEnd": 65,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:__init__",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:__init__",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 66,
+        "lineEnd": 66,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:on_click",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:on_click",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 114,
+        "lineEnd": 114,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:update_button",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:update_button",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 138,
+        "lineEnd": 138,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:check_game_over",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:check_game_over",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 141,
+        "lineEnd": 141,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:minimax_tk.py->fn:minimax_tk.py:reset_game",
+      "sourceId": "file:minimax_tk.py",
+      "targetId": "fn:minimax_tk.py:reset_game",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "minimax_tk.py",
+        "lineStart": 157,
+        "lineEnd": 157,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/abp.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/abp.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 1,
+        "lineEnd": 107,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/abp.py->fn:practice/abp.py:print_board",
+      "sourceId": "file:practice/abp.py",
+      "targetId": "fn:practice/abp.py:print_board",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 3,
+        "lineEnd": 3,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/abp.py->fn:practice/abp.py:checkwin",
+      "sourceId": "file:practice/abp.py",
+      "targetId": "fn:practice/abp.py:checkwin",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 8,
+        "lineEnd": 8,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/abp.py->fn:practice/abp.py:checkdraw",
+      "sourceId": "file:practice/abp.py",
+      "targetId": "fn:practice/abp.py:checkdraw",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 19,
+        "lineEnd": 19,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/abp.py->fn:practice/abp.py:minimax",
+      "sourceId": "file:practice/abp.py",
+      "targetId": "fn:practice/abp.py:minimax",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 25,
+        "lineEnd": 25,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/abp.py->fn:practice/abp.py:findBestMove",
+      "sourceId": "file:practice/abp.py",
+      "targetId": "fn:practice/abp.py:findBestMove",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/abp.py",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/astar.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/astar.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 1,
+        "lineEnd": 33,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/astar.py->fn:practice/astar.py:astar",
+      "sourceId": "file:practice/astar.py",
+      "targetId": "fn:practice/astar.py:astar",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/bfs.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/bfs.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/bfs.py",
+        "lineStart": 1,
+        "lineEnd": 23,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/bfs.py->fn:practice/bfs.py:bfs",
+      "sourceId": "file:practice/bfs.py",
+      "targetId": "fn:practice/bfs.py:bfs",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/bfs.py",
+        "lineStart": 10,
+        "lineEnd": 10,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/CA.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/CA.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 1,
+        "lineEnd": 61,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/CA.py->fn:practice/CA.py:word_map",
+      "sourceId": "file:practice/CA.py",
+      "targetId": "fn:practice/CA.py:word_map",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 2,
+        "lineEnd": 2,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/CA.py->fn:practice/CA.py:satisfies_constraint",
+      "sourceId": "file:practice/CA.py",
+      "targetId": "fn:practice/CA.py:satisfies_constraint",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/CA.py->fn:practice/CA.py:backtrack",
+      "sourceId": "file:practice/CA.py",
+      "targetId": "fn:practice/CA.py:backtrack",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CA.py",
+        "lineStart": 23,
+        "lineEnd": 23,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/CSP.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/CSP.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 1,
+        "lineEnd": 37,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/CSP.py->fn:practice/CSP.py:satisfies_constraint",
+      "sourceId": "file:practice/CSP.py",
+      "targetId": "fn:practice/CSP.py:satisfies_constraint",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/CSP.py->fn:practice/CSP.py:backtrack",
+      "sourceId": "file:practice/CSP.py",
+      "targetId": "fn:practice/CSP.py:backtrack",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/CSP.py",
+        "lineStart": 17,
+        "lineEnd": 17,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/dfs.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/dfs.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/dfs.py",
+        "lineStart": 1,
+        "lineEnd": 22,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/dfs.py->fn:practice/dfs.py:dfs",
+      "sourceId": "file:practice/dfs.py",
+      "targetId": "fn:practice/dfs.py:dfs",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/dfs.py",
+        "lineStart": 11,
+        "lineEnd": 11,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:repo:ai->file:practice/greedy.py",
+      "sourceId": "repo:ai",
+      "targetId": "file:practice/greedy.py",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/greedy.py",
+        "lineStart": 1,
+        "lineEnd": 33,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/greedy.py->fn:practice/greedy.py:dfs",
+      "sourceId": "file:practice/greedy.py",
+      "targetId": "fn:practice/greedy.py:dfs",
+      "type": "DEFINES",
+      "provenance": {
+        "filePath": "practice/greedy.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:class:Agent.py:AStarSearchPolicy-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "class:Agent.py:AStarSearchPolicy",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "Agent.py",
+        "lineStart": 118,
+        "lineEnd": 118,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:astar.py-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "file:astar.py",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 1,
+        "lineEnd": 58,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:fn:astar.py:astar-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "fn:astar.py:astar",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 31,
+        "lineEnd": 31,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:fn:astar.py:print_path-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "fn:astar.py:print_path",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "astar.py",
+        "lineStart": 51,
+        "lineEnd": 51,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:file:practice/astar.py-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "file:practice/astar.py",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 1,
+        "lineEnd": 33,
+        "origin": "universal-ast-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    },
+    {
+      "id": "edge:fn:practice/astar.py:astar-REPRESENTS_DOMAIN->concept:StaticCodeIntelligence",
+      "sourceId": "fn:practice/astar.py:astar",
+      "targetId": "concept:StaticCodeIntelligence",
+      "type": "REPRESENTS_DOMAIN",
+      "provenance": {
+        "filePath": "practice/astar.py",
+        "lineStart": 21,
+        "lineEnd": 21,
+        "origin": "python-universal-extractor",
+        "confidenceTier": "REVIEWABLE",
+        "confidenceScore": 0.95
+      }
+    }
+  ],
+  "commits": [],
+  "headCommitId": null
+}
